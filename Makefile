@@ -1,5 +1,5 @@
-CC = i386-elf-gcc
-LNK = i386-elf-ld
+CC = i686-elf-gcc
+LNK = i686-elf-ld
 ASRC = ${wildcard boot/*.asm}
 CSRC = ${wildcard kernel/*.c drivers/*.c}
 OBJ = ${wildcard tmp/*.o}
